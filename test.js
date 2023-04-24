@@ -4,3 +4,4 @@
 // sta ima
 // aj jedan na jedan gospodjo
 // sta ima 
+// aj jedan na jedan
