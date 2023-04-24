@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PokeDex</title>
+</head>
+<body>
+
+        <nav>    
+            <img class="logo" src="img/logo.png" alt="Pokemon World">
+        </nav>
+
+    <div class="linija"></div>
+
+    <section class="naslov-stranice">
+        <h2>PokeDex</h2>
+    </section>
+
+    <section class="naslov-sekcije">
+        <div class="regioni"> 
+            <p class="region all">All</p>       
+            <p class="region kanto">Kanto</p>
+            <p class="region johto">Johto</p>
+            <p class="region hoenn">Hoenn</p>
+            <p class="region sinnoh">Sinnoh</p>
+            <p class="region unova">Unova</p>
+            <p class="region kalos">Kalos</p>
+            <p class="region alola">Alola</p>
+            <p class="region hisui">Hisui</p>
+            <p class="region paldea">Paldea</p>
+        </div>
+
+    </section>
+
+    
+    <section class="kartice">
+            <div class="kartica">
+                <div class="title"></div>
+                <img class="poke-slika" src="" alt="" />
+                <div class="flex-row">
+                  <div class="types"></div>
+                  <div class="weight"></div>
+                </div>
+            </div>
+
+    </section>
+
+
+
+    
+
+    <div class="footer">
+         Showing 1 to <span id="total-pokemon">50</span>,
+        <span class="action-text" onclick="nextPage()"> show more ></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
