@@ -181,7 +181,6 @@ const addCard = (pokemonData) =>{
     cards.appendChild(newCard);
 }
 
-
 const nextPage = () => {
     if(loadMore){
         showAndMovePlaceholder();
@@ -193,9 +192,7 @@ const nextPage = () => {
         fetchovanje();
         
         
-    }
-    
-
+    }    
 
   };
 
@@ -204,6 +201,5 @@ const nextPage = () => {
     card.remove();
     cards.appendChild(card);
   };
-
 
   fetchovanje();
